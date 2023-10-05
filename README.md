@@ -2,6 +2,8 @@
 
 ## Goal
 The goal of this project is to create a versatile to-do list website that helps you manage tasks and activities for both your daily life and work. Whether you need to organize your work projects, shopping lists, or personal chores, this to-do list app has got you covered.
+<img width="978" alt="image" src="https://github.com/Aoruiii/to-do-list/assets/137977631/2f6e38f0-0a6b-4ddf-b082-a8e30d865b5b">
+
 
 ## How to Access
 
