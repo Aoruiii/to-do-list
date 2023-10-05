@@ -1,0 +1,102 @@
+body{
+    background-color: #3085C3;
+}
+
+.navbar{
+    list-style-type: none;
+    margin-left: 0px;
+    padding:0px;
+}
+
+.navbar li{
+    display:inline;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.nav-item{
+    color: #F4E869; 
+    text-decoration: none; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+.to-do-list {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;  
+    padding:0px;
+    margin:0px;
+}
+
+.list-title {
+    padding: 5px;
+    margin:20px;
+    background-color: #F4E869;
+    border-radius: 5px;
+    box-shadow: #F4E869;
+}
+
+h4 {
+    padding: 5px;
+    margin:0px;
+}
+
+.to-do-list input {
+    background-color: #FAF2D3;
+    border: none; /* remove the border */
+    outline: none;
+    border-bottom: 1px solid #3085C3;
+    text-align: center;
+    caret-color: #3085C3;
+    color:#3085C3;
+    padding-top: 50px;
+}
+
+.to-do-list input::placeholder {
+    color: #3085C3;
+    font-style: italic;
+}
+
+#addTaskButton {
+    background-color: transparent;
+    border: none; 
+    cursor: pointer; 
+    padding: 0;
+}
+
+#addTaskButton .button-icon {
+    font-size: 24px; 
+    color: #3085C3;
+}
+
+.form-container {
+    border: 2px solid #333; /* Change the color and width as needed */
+    padding: 50px; /* Optional: Add padding for spacing */
+    background-color: #FAF2D3;
+    min-height: 200px;
+  }
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #3085C3;
+} 
+
+#taskList li li:last-child {
+    border-bottom: none;
+  }
+
+#taskList label {
+    color:#3085C3;
+}
+
+#taskList input[type="checkbox"]:checked + label {
+    text-decoration: line-through; /* Add strikethrough line */
+    color: #d0cdc5; /* Change text color for checked items */
+}
